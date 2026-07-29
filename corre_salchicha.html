@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corre Salchicha</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f5f2;
+    color: #222;
+  }
+  .card {
+    width: 100%;
+    max-width: 430px;
+    text-align: center;
+    background: #fff;
+    border-radius: 24px;
+    padding: 42px 26px 30px;
+    box-shadow: 0 12px 35px rgba(0,0,0,.08);
+  }
+  .logo {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #222;
+    color: #fff;
+    font-size: 34px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 29px;
+    letter-spacing: .5px;
+  }
+  p {
+    margin: 10px 0 28px;
+    color: #777;
+    font-size: 15px;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    margin: 13px 0;
+    padding: 16px 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    background: #fff;
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 18px rgba(0,0,0,.08);
+  }
+  .icon { font-size: 21px; }
+  footer {
+    margin-top: 28px;
+    color: #aaa;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo">🌭</div>
+    <h1>Corre Salchicha</h1>
+    <p>Síguenos y contáctanos</p>
+
+    <a class="button" href="https://www.instagram.com/corresalchicha_zonarosa?igsh=MWN2N3lkdzlzNmNtYw==" target="_blank" rel="noopener">
+      <span class="icon">📸</span> Instagram
+    </a>
+
+    <a class="button" href="https://www.tiktok.com/@corre.salchicha.z?_r=1&_t=ZS-98QLLlc4Qpo" target="_blank" rel="noopener">
+      <span class="icon">🎵</span> TikTok
+    </a>
+
+    <a class="button" href="https://wa.me/525629700409" target="_blank" rel="noopener">
+      <span class="icon">💬</span> WhatsApp
+    </a>
+
+    <footer>© Corre Salchicha</footer>
+  </main>
+</body>
+</html>
